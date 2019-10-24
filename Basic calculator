@@ -1,6 +1,8 @@
 void main()
-  {int a,b,ip;
+  {int a,b,ip,;
    cout<<"CALCULATOR"<<endl;
+   cout<<"----------"<<endl;
+   
    cout<<"Enter the operation you want to do"<<endl;
    cin>>ip;
    cout<<endl;
