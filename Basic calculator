@@ -1,0 +1,22 @@
+void main()
+  {int a,b,ip;
+   cout<<"CALCULATOR"<<endl;
+   cout<<"Enter the operation you want to do"<<endl;
+   cin>>ip;
+   cout<<endl;
+   
+   cout<<"Enter the two numbers"<<endl;
+   cin>>a>>b;
+   
+   cout<<endl;
+   cout<<"Answer:";
+   
+   switch(ip)
+    {case '+':cout<<a+b;
+     case '-':cout<<a-b;
+     case '*':cout<<a*b;
+     case '/':cout<<a/b;
+    }
+   getch();
+  }  
+     
